@@ -19,8 +19,8 @@ const Nav = ({ search, setSearch }) => {
         <li>
           {/* Link tells react to not request link from the server, just route to proper component */}
           <Link to="/">Home</Link>
-          <Link to="/post">Post</Link>
-          <Link to="/about">About</Link>
+          <Link to="post">Post</Link>
+          <Link to="about">About</Link>
         </li>
       </ul>
     </nav>
